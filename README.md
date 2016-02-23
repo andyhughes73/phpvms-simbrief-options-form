@@ -16,27 +16,27 @@ For a vanilla phpvms install, your style file should be located in /lib/css/phpv
 If you want to use your own styling, then you need to change the following html tag references in the "schedules_briefing.php" file you downloaded.
 
 Change "classic-title5" to one of your own <h3> styles
-<h3 class="classic-title5"></h3>
+h3 class="classic-title5"
 
 The "call-action" is a Boostrap3 box. The styling of the box is controlled by "call-action-style1.
-<div class="call-action call-action-boxed call-action-style1 no-descripton clearfix">
+div class="call-action call-action-boxed call-action-style1 no-descripton clearfix"
 
 This controls the general styling of the container and it's elements that house the tables.
-<div class="schedule-briefing">
+div class="schedule-briefing"
 
 This controls the specific table style. You can simply overwrite "briefing-table" with your own style classname.
-<table class="briefing-table">
+table class="briefing-table"
 
 The "dispinput" styles the input and select form elements on the page.
-<select class="dispinput" name="date" id="date">
+select class="dispinput" name="date" id="date"
 
 Once you've uploaded the schedule_briefing.php file, you need to also edit the following line at the bottom of the file.
 
 Replace the url from my form.
-<button type="button" style="width:100%" class="btn btn-success btn-lg" onclick="simbriefsubmit('http://www.globalairalliance.com/index.php/SimBrief');" style="font-size:30px" value="Generate">Click to Generate OFP</button>
+button type="button" style="width:100%" class="btn btn-success btn-lg" onclick="simbriefsubmit('http://www.globalairalliance.com/index.php/SimBrief');" style="font-size:30px" value="Generate">Click to Generate OFP
 
 with yours as shown below.
-<button type="button" style="width:100%" class="btn btn-success btn-lg" onclick="simbriefsubmit('http://Your website URL here/index.php/SimBrief');" style="font-size:30px" value="Generate">Click to Generate OFP</button>
+button type="button" style="width:100%" class="btn btn-success btn-lg" onclick="simbriefsubmit('http://Your website URL here/index.php/SimBrief');" style="font-size:30px" value="Generate">Click to Generate OFP
 
 That's it, you should be good to go.
 

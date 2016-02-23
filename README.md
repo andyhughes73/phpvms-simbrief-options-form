@@ -15,8 +15,7 @@ If you wish to use my styling, you can just copy and paste the styles from my "s
 For a vanilla phpvms install, your style file should be located in /lib/css/phpvms.css.
 If you want to use your own styling, then you need to change the following html tag references in the "schedules_briefing.php" file you downloaded.
 
-Change "classic-title5" to one of your own <h3> styles
-h3 class="classic-title5"
+Change "classic-title5" to one of your own header styles
 
 The "call-action" is a Boostrap3 box. The styling of the box is controlled by "call-action-style1.
 div class="call-action call-action-boxed call-action-style1 no-descripton clearfix"

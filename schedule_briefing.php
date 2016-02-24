@@ -105,9 +105,9 @@
 					<td>
                     	<span class="disphead">Route</span> (<a href="guide.php#routeguide" target="_blank">?</a>)
 						<span style="font-size:14px;font-weight:bold;padding:0px 5px">&rarr;</span>
-						<a href="http://flightaware.com" id="falink" target="_blank">
+						<a href="http://flightaware.com/analysis/route.rvt?origin=<?php echo $schedule->depicao ; ?>&destination=<?php echo $schedule->arricao ; ?>" id="falink" target="_blank">
                         <img class="routeimg" src="<?php echo fileurl('/images/logos/flightaware.png');?>" alt="Flightaware" title="FlightAware"></a> 
-						<a href="http://skyvector.com/?ll=0,0&amp;chart=304&amp;zoom=16&amp;fpl=" id="sklink" target="_blank">
+						<a href="https://skyvector.com/?chart=304&zoom=6&fpl=<?php echo $schedule->depicao ; ?>%20%20<?php echo $schedule->arricao ; ?>" id="sklink" target="_blank">
                         <img class="routeimg" src="<?php echo fileurl('/images/logos/routes_skv.png');?>" alt="SkyVector" title="SkyVector"></a>
 						<a href="http://rfinder.asalink.net/free/" id="rflink" target="_blank">
                         <img class="routeimg" src="<?php echo fileurl('/images/logos/routefinder.png');?>" alt="RouteFinder" title="RouteFinder"></a>

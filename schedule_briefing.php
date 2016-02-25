@@ -1,6 +1,7 @@
 <div class="box">
   <h3 class="classic-title5"><span>Flight Plan Briefing</span></h3>
 	<div class="call-action call-action-boxed call-action-style1 no-descripton clearfix">
+    <form id="sbapiform">
         <div class="schedule-briefing">
             <table class="briefing-table">
             	<tr>
@@ -27,9 +28,9 @@
 					</script>
                     <input class="dispinput" name="date" size="7" type="text" id="datepicker">
                     </td>
-                    <td><select class="dispinput" name="dephour" id="dephour"><option value="0">00</option><option value="3600">01</option><option value="7200">02</option><option value="10800">03</option><option value="14400">04</option><option value="18000">05</option><option value="21600">06</option><option value="25200">07</option><option value="28800">08</option><option value="32400">09</option><option value="36000">10</option><option value="39600">11</option><option value="43200">12</option><option value="46800">13</option><option value="50400">14</option><option value="54000">15</option><option value="57600">16</option><option value="61200" selected="">17</option><option value="64800">18</option><option value="68400">19</option><option value="72000">20</option><option value="75600">21</option><option value="79200">22</option><option value="82800">23</option></select>
+                    <td><select class="dispinput" name="dephour" id="dephour"><option value="0">00</option><option value="3600">01</option><option value="7200">02</option><option value="10800">03</option><option value="14400">04</option><option value="18000">05</option><option value="21600">06</option><option value="25200">07</option><option value="28800">08</option><option value="32400">09</option><option value="36000">10</option><option value="39600">11</option><option value="43200">12</option><option value="46800" selected="">13</option><option value="50400">14</option><option value="54000">15</option><option value="57600">16</option><option value="61200">17</option><option value="64800">18</option><option value="68400">19</option><option value="72000">20</option><option value="75600">21</option><option value="79200">22</option><option value="82800">23</option></select>
                     
-                    :<select class="dispinput" name="dephour" id="dephour"><option value="0">00</option><option value="3600">01</option><option value="7200">02</option><option value="10800">03</option><option value="14400">04</option><option value="18000">05</option><option value="21600">06</option><option value="25200">07</option><option value="28800">08</option><option value="32400">09</option><option value="36000">10</option><option value="39600">11</option><option value="43200">12</option><option value="46800">13</option><option value="50400">14</option><option value="54000">15</option><option value="57600">16</option><option value="61200" selected="">17</option><option value="64800">18</option><option value="68400">19</option><option value="72000">20</option><option value="75600">21</option><option value="79200">22</option><option value="82800">23</option></select></td>
+                    :<select class="dispinput" name="depmin" id="depmin"><option value="0">00</option><option value="60">01</option><option value="120">02</option><option value="180">03</option><option value="240">04</option><option value="300">05</option><option value="360">06</option><option value="420">07</option><option value="480">08</option><option value="540">09</option><option value="600">10</option><option value="660">11</option><option value="720">12</option><option value="780">13</option><option value="840">14</option><option value="900">15</option><option value="960">16</option><option value="1020">17</option><option value="1080">18</option><option value="1140">19</option><option value="1200">20</option><option value="1260">21</option><option value="1320">22</option><option value="1380">23</option><option value="1440">24</option><option value="1500">25</option><option value="1560">26</option><option value="1620">27</option><option value="1680">28</option><option value="1740">29</option><option value="1800" selected="">30</option><option value="1860">31</option><option value="1920">32</option><option value="1980">33</option><option value="2040">34</option><option value="2100">35</option><option value="2160">36</option><option value="2220">37</option><option value="2280">38</option><option value="2340">39</option><option value="2400">40</option><option value="2460">41</option><option value="2520">42</option><option value="2580">43</option><option value="2640">44</option><option value="2700">45</option><option value="2760">46</option><option value="2820">47</option><option value="2880">48</option><option value="2940">49</option><option value="3000">50</option><option value="3060">51</option><option value="3120">52</option><option value="3180">53</option><option value="3240">54</option><option value="3300">55</option><option value="3360">56</option><option value="3420">57</option><option value="3480">58</option><option value="3540">59</option></select></td>
                 </tr>
             </table>
         </div>
@@ -39,7 +40,7 @@
 <div class="box no-margin no-left-padding col-md-6">
   <h3 class="classic-title2"><span>Flight Plan Options</span></h3>
 	<div class="call-action call-action-boxed call-action-style1 no-descripton clearfix">
-    <form id="sbapiform">
+    
     	<div class="schedule-briefing">
     <table class="schedule-briefing">
         <tr>

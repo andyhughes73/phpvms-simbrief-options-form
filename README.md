@@ -14,6 +14,7 @@ If you are not using a custom skin, then you should place the file in /core/temp
 If you wish to use my styling, you can just copy and paste the styles from my "style.css" to your style file. For a custom skin this is likely to be /lib/skins/(your skin name)/css/style.css.
 For a vanilla phpvms install, your style file should be located in /lib/css/phpvms.css.
 If you want to use your own styling, then you need to change the following html tag references in the "schedules_briefing.php" file you downloaded.
+To add the "dynamically called fleet" from your database, you also need to download and install the "OperationsData.class.php file and copy it to your "core/common" directory. Rename your existing file to "OperationsData.class.phpOLD" so you have a backup, just incase anything breaks.
 
 Change "classic-title5" to one of your own header styles
 
@@ -42,3 +43,9 @@ That's it, you should be good to go.
 To test it, bid on a flight, go to "view my bids" and click on "pilot brief". You should now see your form. Adjust the settings as you need and press on the "Click to Generate OFP". You should now see your OFP complete with accurate timings and fuel predictions.
 
 Enjoy!
+
+Credits:
+Vangelis - phpVMS forum
+Web541 - phpVMS forum
+Strider - phpVMS forum
+Keith - phpVMS forum
